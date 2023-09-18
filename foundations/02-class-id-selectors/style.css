@@ -1,0 +1,19 @@
+.oddline {
+    background-color:pink;
+    font-family: Verdana, DejaVu sans, sans-serif;
+}
+
+.oddline.number3{
+    font-size: 24px;
+}
+
+#number2{
+    color:blue;
+    font-size: 36px;
+}
+
+#number4{
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
