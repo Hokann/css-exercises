@@ -26,3 +26,55 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*my work down below*/
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: bold;
+  margin: 16px;
+}
+
+.end{
+  text-align: center;
+  margin: 24px;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+}
+
+.sidebar{
+  min-width: 250px;
+}
+ul{
+  list-style: none;
+  padding: 0px;
+  margin-left: 16px;
+}
+a{
+  text-decoration: none;
+  color:white;
+  /*display block is super important here, otherwise margin/padding/border won't work*/
+  display: block;
+  margin-bottom: 16px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 24px;
+}
+
+.card{
+  max-width: 350px;
+  height: 250px;
+  padding: 8px;
+}
+

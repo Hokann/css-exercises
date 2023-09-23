@@ -25,3 +25,49 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/*my work down below*/
+
+body{
+  /*to fill out page with 3 items only, header, content, footer*/
+  display: flex;
+  flex-direction: column;
+}
+
+.header, 
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.content{
+  margin-top: 250px;
+  /*logo above, search middle, button below*, all aligned*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /*to fill out space in between header and footer*/
+  flex: 1; 
+}
+
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  gap: 15px;
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+  color: grey;
+}
+
+button{
+  font-weight: bold;
+  font-size: 14px;
+  padding: 8px;
+}

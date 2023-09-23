@@ -1,15 +1,35 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  gap: 50px;
+}
+
+.text{
+  /*using width: 200px; will cut off the page if it's shortened
+  that's because it will fix the width at 200px always, for all window sizes.
+  Using max-width will allow for the text to adapt, and if there's enough space will only go 
+  up to 200px*/
+  max-width: 200px;
 }
 
 /* do not edit this footer */
